@@ -107,3 +107,6 @@ body{
   .operate_button:hover {
     background: #0b5ed7;
   }
+  .cancel_button{
+    background: red;
+  }
