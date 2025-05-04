@@ -1,0 +1,108 @@
+body{
+    font-family:sans-serif;
+    background-color:darkgrey;
+    margin:0;
+    padding:20px;
+}
+/*General layout*/
+.calculator_body {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  .button_operator{
+    display:flex;
+    gap: 10px;
+  }
+  /* Display terminal */
+  .display_terminal {
+    background: #212529;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+  }
+  
+  .display_terminal h1 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #adb5bd;
+  }
+  
+  .display_result {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  
+  /* Button terminal layout */
+  .button_terminal {
+    display: flex;
+    flex: 0 0 70%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  /* Digit buttons container */
+  .digits_button {
+    width:80%;
+    height:70px;
+    font-size:20px;
+    background: #e9ecef;
+    border:none;
+    border-radius: 8px;
+    cursor:pointer;
+    transition: background 0.2s ease;
+
+  }
+  .digits_button:hover {
+    background: #ced4da;
+  }
+  .zero_button{
+    width:100%;
+    height:55px;
+    font-size:20px;
+    background: #e9ecef;
+    border:none;
+    border-radius: 8px;
+    cursor:pointer;
+    transition: background 0.2s ease;
+  }
+
+  .zero_button:hover{
+    background: #ced4da;
+  }
+  /* 1–9 digit grid */
+.digits_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  /* Operator buttons */
+  .operator {
+    flex: 0 0 30%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .operate_button {
+    padding: 15px;
+    font-size: 18px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .operate_button:hover {
+    background: #0b5ed7;
+  }
