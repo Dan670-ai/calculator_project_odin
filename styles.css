@@ -2,7 +2,7 @@ body{
     font-family:sans-serif;
     background-color:darkgrey;
     margin:0;
-    padding:20px;
+    padding:0px;
 }
 /*General layout*/
 .calculator_body {
@@ -16,6 +16,7 @@ body{
   }
   .button_operator{
     display:flex;
+    height:300px;
     gap: 10px;
   }
   /* Display terminal */
@@ -93,7 +94,7 @@ body{
   }
   
   .operate_button {
-    padding: 15px;
+    padding: 10px;
     font-size: 18px;
     background: #0d6efd;
     color: white;
